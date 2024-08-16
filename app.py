@@ -55,4 +55,4 @@ st.map(map)
 
 result_api = requests.get(url, params=dict_params).json()
 
-st.json(result_api)
+st.write(result_api["fare"])
